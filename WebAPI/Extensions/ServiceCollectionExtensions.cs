@@ -20,8 +20,8 @@ namespace WebAPI.Extensions
                         Description = "Web API",
                         Contact = new OpenApiContact()
                         {
-                            Name = "Adilson Soares",
-                            Email = "adilsonm-soares@hotmail.com"
+                            Name = "PROJECT ADMIN NAME",
+                            Email = "PROJECT ADMIN EMAIL"
                         }
                     });
             });
