@@ -3,8 +3,6 @@
 
 <img src=".readme/images/dotNetCore.png" alt="Dot NET Core pic" width="75" height="auto">
 <img src=".readme/images/api.png" alt="API pic" width="75" height="auto">
-![Dot NET Core pic](.readme/images/dotNetCore.png =75x)
-![Dot NET Core pic](.readme/images/api.png =75x)
 
 </div>
 
@@ -22,10 +20,9 @@ Below are the diagrams related to the project and how it was designed, with the 
 There is also, for a better perception of the project, a tree of folders with the types of framework version used in each one.
 
 <div style="text-align:center">
-
 <img src=".readme/images/diagrams.png" alt="Onion Architecture Diagram" width="400" height="auto">
-
 </div>
+
 
 ```
 Boilerplate
