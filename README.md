@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<div align="center" style="text-align:center">
 <div style="disply:flex; justify-content: center;">
 
 <img src=".readme/images/dotNetCore.png" alt="Dot NET Core pic" width="75" height="auto">
@@ -19,7 +19,7 @@ Below are the diagrams related to the project and how it was designed, with the 
 
 There is also, for a better perception of the project, a tree of folders with the types of framework version used in each one.
 
-<div style="text-align:center">
+<div align="center" style="text-align:center">
 <img src=".readme/images/diagrams.png" alt="Onion Architecture Diagram" width="400" height="auto">
 </div>
 
