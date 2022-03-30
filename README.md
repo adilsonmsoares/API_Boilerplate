@@ -22,7 +22,7 @@ There is also, for a better perception of the project, a tree of folders with th
 <div align="center" style="text-align:center">
 <img src=".readme/images/diagrams.png" alt="Onion Architecture Diagram" width="400" height="auto">
 </div>
-
+<br/>
 
 ```
 Boilerplate
