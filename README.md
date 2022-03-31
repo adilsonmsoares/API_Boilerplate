@@ -56,10 +56,11 @@ In this sense, and for better code maintenance, the above layers are aware of th
 The layer-based architecture allows us to exchange an entire layer for a new one, for example, if we have a layer that communicates with the sql database we can replace it with another that communicates with the Mongo database. It is easier to change layers, add new services and / or change existing services.
 
 ### Main conventions to follow
+All projects need rules to be follow to maintain a standardized project with readable code that can be understood by new developers. In this sense, and based on the chosen architecture, the main rules to be followed are:
 
-* Above layers are aware of the below layers, but the opposite does not happen
+* Above layers are aware of the below layers, but the opposite is not true
 * Data transfer between layers must be done through a data transfer protocol such as DTO (Data Transfer Object)
-* The layers/services should only do what is their job. For example: the presentation layer should not save data or have business logic.
+* The layers/services should only do what is their job. For example: the presentation layer should not save data or have business logic
 
 In this [link](https://www.codeguru.com/csharp/understanding-onion-architecture) there is a more detailed explanation of the chosen architecture.
 
