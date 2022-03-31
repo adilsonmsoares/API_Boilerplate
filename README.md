@@ -47,7 +47,21 @@ Notes:
 * .NET 5 &#8594; Layer 4.2 to 4.3
    
 ## Architecture
-The architecture implemented in this project is onion architecture, and you can find its documentation in this [link](https://www.codeguru.com/csharp/understanding-onion-architecture).
+As architecture, Onion Architecture was chosen because it offers separation of the business logic and repository/database.
+
+Here, the objective will be separate the business logic and repositories where the data will be save, dividing them into layers that will work autonomously.
+
+In this sense, and for better code maintenance, the above layers are aware of the below layers, but the opposite does not happen.
+
+The layer-based architecture allows us to exchange an entire layer for a new one, for example, if we have a layer that communicates with the sql database we can replace it with another that communicates with the Mongo database. It is easier to change layers, add new services and / or change existing services.
+
+### Main conventions to follow
+
+* Above layers are aware of the below layers, but the opposite does not happen
+* Data transfer between layers must be done through a data transfer protocol such as DTO (Data Transfer Object)
+* The layers/services should only do what is their job. For example: the presentation layer should not save data or have business logic.
+
+In this [link](https://www.codeguru.com/csharp/understanding-onion-architecture) there is a more detailed explanation of the chosen architecture.
 
 ## Features
 Below is a list of basic features that this API offers:

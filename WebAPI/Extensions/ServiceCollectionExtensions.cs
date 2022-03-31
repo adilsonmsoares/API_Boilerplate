@@ -15,9 +15,9 @@ namespace WebAPI.Extensions
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "Web API",
+                        Title = "API",
                         Version = "v1",
-                        Description = "Web API",
+                        Description = "API",
                         Contact = new OpenApiContact()
                         {
                             Name = "PROJECT ADMIN NAME",
