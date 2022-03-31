@@ -6,11 +6,11 @@
 
 </div>
 
-# Boilerplate
+# .NET API Boilerplate
 
 </div>
 
-This project was developed to serve as a base/quick start for the development of new projects, allowing it to grow in terms of scalability and ease of maintenance.
+This boilerplate was created to serve as a base project for a quick start of an API in .NET, with a structured architecture opened for scalability and easy to maintenance.
 
 In this documentation are the specifications of each page and important files, as well as the conventions to be followed.
 
@@ -50,11 +50,12 @@ Notes:
 The architecture implemented in this project is onion architecture, and you can find its documentation in this [link](https://www.codeguru.com/csharp/understanding-onion-architecture).
 
 ## Features
-Below is a list of features that this API offers:
-1. There are examples of api request, starting at the controller and going down to the repository layer, showing the entire request path and steps
-2. Log events using Serilog
-3. Use FluentValidation to validate data sent
-4. XUnit implemented
+Below is a list of basic features that this API offers:
+1. Structured architecture based on layers
+2. API request examples
+3. Log events using Serilog
+4. FluentValidation
+5. Unit test examples in xUnit
 
 # Getting Started
 To setup the project locally a few steps need to be followed.
